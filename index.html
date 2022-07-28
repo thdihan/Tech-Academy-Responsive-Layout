@@ -89,7 +89,7 @@
                                 easier. <br> Explore our courses and find your favourite one. <br> Don't forget to
                                 provide
                                 feedback for your our improvement.</p>
-                            <button class="btn btn-danger px-5 py-3">Get Started</button>
+                            <button class="btn btn-danger px-5 py-3 fw-semibold">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item drk">
@@ -99,7 +99,7 @@
                             <p class="my-5 text-white-50">Learning is something really easy with digital platform.
                                 <br>Just click on your favourite course, enroll and start learning.
                             </p>
-                            <button class="btn btn-danger px-5 py-3">Get Started</button>
+                            <button class="btn btn-danger px-5 py-3 fw-semibold">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item drk">
@@ -108,7 +108,7 @@
                             <h1 class="">Explore The World <br> Populer Courses</h1>
                             <p class="my-5 text-white-50">Explore all the populer courses those topics are populer all
                                 over the world <br> Discover your interest and start learning from scratch</p>
-                            <button class="btn btn-danger px-5 py-3">Get Started</button>
+                            <button class="btn btn-danger px-5 py-3 fw-semibold">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -304,7 +304,7 @@
                                 Online learning refers to an internet-based learning environment that can connect
                                 students of diverse backgrounds who
                                 boast different perspectives.</p>
-                            <div class="statistics d-flex justify-content-between">
+                            <div class="statistics d-flex justify-content-between flex-wrap">
                                 <div class="single-statistics">
                                     <h1 class="fw-bold">3.2K+</h1>
                                     <p class="text-muted fs-5">Online Course</p>
@@ -335,9 +335,9 @@
         <!-- --Registration-Area-- -->
 
         <section
-            class="registration-area container bg-danger bg-opacity-75 p-5 d-flex flex-lg-row flex-column justify-content-lg-between align-items-lg-center  text-white rounded-3"
+            class="registration-area container bg-danger bg-opacity-75 p-5 d-flex flex-lg-row flex-column justify-content-lg-between align-items-lg-center  text-white rounded-3 align-items-center"
             id="register">
-            <div class="registration-text p-5">
+            <div class="registration-text p-5 text-center text-lg-start">
                 <h1 class="fw-semibold">Ready to join?</h1>
                 <p class="mt-5 mb-0 text-white-50">Register in our site, get all the updates of our courses. <br>You
                     will
@@ -345,7 +345,48 @@
                 </p>
             </div>
             <div class="regitration-btn p-5">
-                <button class="btn btn-light py-3 px-4 text-danger fw-semibold">Register Now</button>
+
+
+                <button class="btn btn-light py-3 px-4 text-danger fw-semibold" type="button" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Register Now</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered text-dark">
+                        <div class="modal-content p-4">
+                            <div class="modal-header align-content-center">
+                                <h2 class="text-danger">Registration Form</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+
+                            <form class="container-fluid">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Name:</label>
+                                    <input type="text" class="form-control" id="exampleInputName">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Agree with Terms &
+                                        Conditions</label>
+                                </div>
+                                <button type="submit" class="btn btn-danger fw-semibold px-3">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- --Registration-Area-End-- -->
@@ -353,7 +394,7 @@
 
         <!-- --Success-Area-- -->
         <section class="success-area container" id="success">
-            <div class="section-title text-start mb-5">
+            <div class="section-title text-md-start text-center mb-5">
                 <h1 class="fw-semibold">Meet Our Successfull <br>Students</h1>
                 <p class="text-black-50">Every Year a lot of students complete our courses and <br> join the industry
                     with experience.
@@ -406,6 +447,9 @@
                     </div>
                 </div>
                 <!-- --Single-Card-End-- -->
+            </div>
+            <div class="about-btn text-center mt-4 d-md-none">
+                <button class="btn btn-danger py-3 fw-semibold d-inline-block px-5 ">View All</button>
             </div>
         </section>
         <!-- --Success-Area-End-- -->
@@ -490,6 +534,10 @@
                     </div>
                     <!-- --Single-Card-End-- -->
 
+                </div>
+                <div class="about-btn text-center mt-5 d-lg-none">
+                    <button class="btn btn-danger py-3 fw-semibold d-inline-block px-5 ">Read
+                        More</button>
                 </div>
             </div>
 
