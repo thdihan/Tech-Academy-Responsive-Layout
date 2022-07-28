@@ -6,3 +6,25 @@
 section {
     margin-top: 106px;
 }
+
+.drk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.7;
+    border-radius: 1rem;
+}
+
+.carousel-caption {
+    z-index: 2;
+    bottom: 28%;
+}
+
+.carousel-item img {
+    height: 80vh;
+}
