@@ -1,10 +1,12 @@
 * {
     font-family: 'Poppins', sans-serif !important;
+    scroll-padding-top: 10rem;
 }
 
 
 section {
     margin-top: 106px;
+
 }
 
 .drk:after {
